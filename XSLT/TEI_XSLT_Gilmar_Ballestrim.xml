@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>         
+         <titleStmt>
+            <title>Les nègres de l'Afrique sus-équatoriale</title>
+            <title type="sub">Senégambie, Guinée, Soudan, Haut-Nil</title>
+            <author>Abel Hovelacque</author>
+            <respStmt>
+               <resp>Encodage par</resp>
+               <persName>Gilmar Ballestrim</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>
+               Edition encodée dans le cadre du master "Technologies numériques
+               appliquées à l'histoire" de l'École nationale des chartes.
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <title>Les nègres de l'Afrique sus-équatoriale</title>
+                  <title type="sub">Senégambie, Guinée, Soudan, Haut-Nil</title>
+                  <author>Abel Hovelacque</author>
+                  <editor role="scientific_editor">Lecrosnier</editor>
+                  <editor role="scientific_editor">Babé</editor>
+                  <imprint>
+                     <publisher>Lecrosnier et Babé, Libraires-Éditeurs</publisher>
+                     <pubPlace>Paris</pubPlace>
+                     <date>1889</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>     
+      <encodingDesc>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="achantis">
+                  <nationality>Achantis</nationality>
+                  <note>Les Ashantis sont un groupe ethnique et était un royaume historique situé dans ce qui est aujourd'hui le Ghana</note>
+               </person>
+               <person xml:id="clappt">
+                  <persName>Clapperton</persName>
+               </person>
+               <person xml:id="dahomans">
+                  <nationality>Dahomans</nationality>
+                  <nationality>Ffons</nationality>
+                  <note>Les Dahomeyens étaient un groupe ethnique du royaume du Dahomey, qui existait dans ce qui est aujourd'hui le sud du Bénin, en Afrique de l'Ouest.</note>
+               </person>
+               <person xml:id="eves">
+                  <nationality>Evés</nationality>
+                  <nationality>Eïvés</nationality>
+                  <note>Les Evés sont un groupe ethnique présent principalement dans les pays d'Afrique de l'Ouest tels que le Togo, le Ghana et le Bénin.</note>
+               </person>
+               <person xml:id="fantis">
+                  <nationality>Fantis</nationality>
+                  <note>Les Fantis sont un groupe ethnique qui vit principalement dans la région côtière du Ghana, en Afrique de l'Ouest. Ils font partie du peuple Akan.</note>
+               </person>
+               <person xml:id="guin">
+                  <nationality>Guinéens</nationality>
+                  <nationality>guinéens</nationality>
+               </person>
+               <person xml:id="laff">
+                  <persName>missionnaire Laffite</persName>
+               </person>
+               <person xml:id="yorubans">
+                  <nationality>Yorubans</nationality>
+                  <note>Les Yoruba sont un peuple et un groupe ethnique d'Afrique de l'Ouest, principalement concentrés dans le sud-ouest du Nigeria, ainsi que dans certaines parties du Bénin et du Togo.</note>
+               </person>
+               <person xml:id="lander">
+                  <persGrp role="frères">frères Lander</persGrp>
+                  <note>Les frères Lander, Richard Lander (1804-1834) et John Lander (1807-1839), étaient des explorateurs britanniques du XIXe siècle, célèbres pour leurs voyages en Afrique de l'Ouest, en particulier dans la région du fleuve Niger.</note>
+               </person>
+            </listPerson>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="akra">
+                  <placeName>Akra</placeName>
+                  <note>Ville située sur la côte atlantique de l'Afrique de l'Ouest, ce qui correspond au Ghana aujourd'hui</note>
+               </place>
+               <place xml:id="adama">
+                  <placeName>Adamawa</placeName>
+                  <note>L'Adamawa est une région située dans le nord-est du Nigeria</note>
+               </place>
+               <place xml:id="benin">
+                  <placeName>Bénin</placeName>
+                  <note>Le Bénin, dans ce contexte, était une ville située dans le sud du Nigeria (territoire des Yorubans), non pas au Bénin (pays) même</note>
+               </place>
+               <place xml:id="cotesclave">
+                  <placeName>Côte des Esclaves</placeName>
+                  <note>Région côtière de l'Afrique de l'Ouest, notamment située autour du golfe de Guinée, qui était fortement impliquée dans le commerce transatlantique des esclaves pendant plusieurs siècles.</note>             
+               </place>
+               <place xml:id="daho">
+                  <placeName>Dahomey</placeName>
+                  <note>Le Dahomey était un royaume situé dans la région qui est aujourd'hui le sud du Bénin.</note>
+               </place>
+               <place xml:id="yoruba">
+                  <placeName>Yoruba</placeName>
+                  <note>Il s'agit du pays Yoruba dans ce contexte, correspondant à Lagos, Ogun, Oyo, Osun, Ondo, et Ekiti, ainsi que des parties des États de Kwara et de Kogi.</note>
+               </place>
+            </listPlace>
+            <listBibl>
+               <head>Liste des ouvrages cités</head>
+               <bibl xml:id="sket">
+                  <title>Dahomey <hi rend="italic">as it is</hi></title>
+                  <author>Skertchly</author>
+                  <pubPlace>Londres</pubPlace>
+                  <date>1874</date>
+               </bibl>
+               <bibl xml:id="bow">  
+                  <author>Bowen</author>
+                  <title>op. cit.</title>
+               </bibl>
+               <bibl xml:id="cran">
+                  <author>Unknown</author>
+                  <title>Crania ethnica</title>
+               </bibl>
+               <bibl xml:id="forbes">
+                  <author>Forbes</author>
+                  <title>Dahomey and the Dahomans</title>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1851</date>
+               </bibl>
+               <bibl xml:id="clappert">
+                  <author>Clapperton</author>
+                  <title>op. cit.</title>
+               </bibl>
+               <bibl xml:id="jrn_niger">
+                  <author>Unknown</author>
+                  <title>Journal d'une expédition au Niger</title>
+                  <edition>t. I</edition>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1832</date>
+               </bibl>
+               <bibl xml:id="ms_tucker">
+                  <author>Miss Tucker</author>
+                  <title>Abbeokuta</title>
+                  <pubPlace>Londres</pubPlace>
+                  <date>1858</date>
+               </bibl>
+               <bibl xml:id="aube">
+                  <author>Aube</author>
+                  <title>Entre deux campagnes</title>
+                  <pubPlace>Paris</pubPlace>
+                  <date>1881</date>
+               </bibl>
+            </listBibl>
+         </settingDesc> 
+      </profileDesc>
+   </teiHeader>
+   
+   <text>
+      <body>
+         <div type="part" n="1">
+            <head>LIVRE PREMIER</head>
+            <div type="chapter" n="1">
+               <head type="titre_chap">XXIII. — LES NOIRS DE LA COTE DES ESCLAVES (ÉVÉS, DAHOMANS, etc.)</head>
+               <p n="1">Avec le deuxième degré de longitude on arrive à la <placeName ref="#cotesclave">Côte des Esclaves</placeName><note n="1" place="bottom">Carte du pays des <nationality ref="#achantis">Achantis</nationality>, des <nationality ref="#fantis">Fantis</nationality>, du <placeName ref="#daho">Dahomey</placeName>, du <placeName ref="#yoruba">Yoruba</placeName>, dans l'ouvrage de Skertchly, <bibl source="#sket"><hi rend="italic">Dahomey as it is</hi>. Londres, 1874.</bibl></note>.</p>
+               <p n="2">Les <nationality ref="#eves">Evés</nationality> proprement dits ou <nationality ref="#eves">Eïvés</nationality> sont établis dans le pays côtier, entre 2° et 1° de longitude occidentale. La langue du pays est un dialecte de la famille linguistique des Fantis, des <nationality ref="#achantis">Achantis</nationality>, des <nationality ref="#dahomans">Dahomans</nationality>, et de peuples situés encore plus à l'est<note n="2" place="bottom"><author>J.-B. Schlogel</author>, <title>Schlüssel sur Ewe-Sprache</title>. <pubPlace>Stuttgard</pubPlace>, <date>1857</date>.</note>.</p>
+               <p n="3">Le peuple le plus important dans cette région est celui des <nationality ref="#dahomans">Dahomans</nationality> ou <nationality ref="#dahomans">Ffons</nationality>, qui n'est cependant pas très considérable : 150,000 habitants d'après Burton, 180,000 d'après <persName ref="#skertchly">Skertchly</persName>.</p>
+               <p n="4">On distingue chez les <nationality ref="#dahomans">Dahomans</nationality>, comme chez presque tous les autres noirs <nationality ref="#guin">guinéens</nationality>, deux types assez caractérisés, l'un de beaucoup inférieur à l'autre <note n="3" place="bottom">D'après les <bibl source="#cran"><hi rend="italic">Crania ethnica</hi>, p. 367</bibl>, la capacité cubique de 9 crânes d'hommes du <placeName ref="#daho">Dahomey</placeName>, a été trouvée de 1,505; celle de 5 crânes de femmes, 1,425. Ces deux mêmes séries ont donné respectivement comme indice cé-phalique 71.27 et 73.59.</note>; ce dernier fournit des hommes de bele taille et d'un physique remarquable.</p>
+               <p n="5">Au <placeName ref="#daho">Dahomey</placeName> le système de gouvernement est celui de la monarchie la plus absolue. Le roi est maître de ses sujets et de leurs biens. Il les enrégimente à son gré et les lance régulièrement sur les pays voisins. Une partie de sagarde particulière est composée de femmes, d'amazones, au nombre de 1,500 à 4 ou 5,000, vivant dans le célibat<note n="1" place="bottom"><hi rend="italic">Le Journal des missions évangéliques</hi>, de 1862, porte à 10,000 el nombre des amazones; p. 133. D'après toutes les autres relations, cette évaluation semble excessive.</note>. Quelquefois le roi en introduit dans son harem, quelquefois il en donne en mariage à ses guerriers les plus estimés. Elles portent un surtout de coton blanc, sans manches. La tunique, une sorte de chemise, descend un peu au-dessous du genou; elles ont en outre un pantalon qui va jusqu'au mollet<note n="2" place="bottom"><hi rend="italic">L'Explorateur</hi>, .1I, 1876. - Cf. <hi rend="italic">Elis, The Land of the Felish</hi>, p. 51. Londres, 1883.</note>. Elles sont armées d'un mousqueton et d'un petit sabre assez court, porté ordinairement dans un fourreau cramoisi. Les plus agées, avec leurs seins tombant de 1 à 2 pieds, présentent un spectacle assez répugnant<note n="3" place="bottom"><bibl source="#forbes">Forbes, Dahomey and the Dahomans. Paris, 1851.</bibl></note>. <quote n="1">« Les plus jeunes forment un petit corps d'élite et de parade; elles sont armées d'un arc, d'un carquois et d'un petit poignard fixé à la main par une lanière. Les archers portent au bras gauche un large bracelet d'ivoire. Aussi légèrement que gracieusement vêtues, les jambes nues et tatouées jusqu'au genou, ce sont des danseuses de premier ordre</quote><note n="4" place="bottom"><hi rend="italic">Revue maritime et coloniale</hi>, t. II, p. 346. - Cf. R. Norris, <hi rend="italic">Memoirs of the Reign of Bossa-Ahadee.</hi> Londres, 1799.</note>. » Les amazones habitent des baraquements attenant au palais du roi. Les différentes brigades d'amazones se distinguent par leur coiffure; les unes, par exemple, ont les cheveux rasés en forme de turban, d'autres rasent toute la tète sauf un bouquet de cheveux laissés sur le sommet<note n="5" place="bottom"><bibl source="#sket">Skertchly, Dahomey <hi rend="italic">as it is</hi>. Londres,1874.</bibl></note>. <persName ref="#skertchly">Skertchly</persName> estime que le nombre de ces femmes célibataires est un des facteurs importants de la dépopulation du pays.</p>
+               <p n="6">Le <persName ref="#laff">missionnaire Laffite</persName>, dans un livre dénué d'esprit critique mais intéressant par les détails et les petits faits qu'il relate, parle longuement des amazones<note n="6" place="bottom"><title>Le Dahomé, Souvenirs de voyage el de mission</title>, <edition>3<hi rend="super">e</hi> édit.</edition>, <pubPlace>Tours</pubPlace>, <date>1871</date>.</note>. Elles sont pour la plupart, dit-il, d'origine étrangère; prises toutes jeunes, on les a dressées de bonne heure à leur métier et au genre de vie qui les attend; on leur apprend à supporter toutes les fatigues; elles sont d'une intrépidité extraordinaire, et le <placeName ref="#daho">Dahomey</placeName> leur doit sa situation prépondérante dans la contrée. <hi rend="italic">(Op. cit.</hi>, p. 109.) <quote n="2">« Ces femmes ne peuvent se marier qu'avec le bon plaisir du roi, et cete faculté no leur est géné-ralement accordée que lorsqu'une constitution faible et des maladies prématurées les ont rendues impropres au service militaire. En dehors des exercices, leur journée se passe dans un travail continu. Le roi ne s'occupe en rien de leur nourriture; c'est à elles d'y pourvoir. Deux branches du commerce indigène sont exclusivement entre leurs mains : la poterie et les calebasses, toute concurrence étant interdite; les bénéfices qu'elles réalisent leur permettent de vivre un peu plus à l'aise que le commun du peuple. A ces deux industries elles joignent encore la culture du maïs, et en général de toutes les productions qui viennent sur le sol dahoméen. Eles apprécient le tafia autant et peut-être plus que leurs sœurs de la réserve. Un petit verre de cette immonde liqueur les fait sourire de pitié, un demi-litre les déride à peine; leur visage ne s'épanouit que devant la bouteille entière ».</quote></p>
+               <p n="7">Au <placeName ref="#daho">Dahomey</placeName>, le gouvernement est essentiellement absolu et despotique; le roi est, à la lettre, idolâtré. Lui seul est libre dans le pays, il a sur tous les sujets droit de vie et de mort. La plus grande partie de la population est composée d'esclaves, mais les hommes soi-disant libres ne sont guère assirés, s'il plaît au tyran, d'un meilleur sort que ne l'est celui des esclaves. Le récit de Pruneau de Pommegorge est tout à fait édifiant : « Le respect, dit-il, que ces peuples portent à leur roi, va jusqu'à l'idolâtrie, et son despotisme n'a point, je crois, d'exemple ailleurs ».</p>
+            </div>
+            <div type="chapter" n="2">
+               <head type="chap_title">XXIV. - LES YORUBANS</head>
+               <p n="1">Un peu plus au nord — et ayant pour voisins du sud-est les noirs du <placeName ref="#benin">Bénin</placeName>, — nous rencontrons les <nationality ref="#yorubans">Yorubans</nationality>, entre 7° et 8° de latitude; entre 1° et 2° de longitude orientale<note n="2" place="bottom">Carte du pays de <placeName ref="#yoruba">Yoruba</placeName> dans <bibl source="#bow">Bowen, <hi rend="italic">op. cit.</hi></bibl></note>. Les noirs du <placeName ref="#yoruba">Yoruba</placeName> ont un caractère moins nigritique que les autres <nationality ref="#guin">Guinéens</nationality>: leurs lèvres ne sont pas très épaisses, leur nez n'est pas très aplati.<note n="3" place="bottom"><bibl source="#clappert">Clapperton, <hi rend="italic">op. cit.</hi>, t. I, p. 97.</bibl></note></p>
+               <p n="2">Au <placeName ref="#yoruba">Yoruba</placeName> le gouvernement monarchique est héréditaire ; le roi est maître absolu, mais li paraît que, dans la pratique, il s'humanise assez facilement, à al différence de ses voisins de l'ouest. Le journal des <persGrp ref="#lander">frères Lander</persGrp> représente les <nationality ref="#yorubans">Yorubans</nationality> comme « sans prévoyance, sans résolution, dépourvus de toute sagesse, incapables de faire mine de se défendre à l'approche du danger, insensibles à l'amour du pays; hors d'état de protéger leurs femmes, leurs enfants et de se protéger eux-mêmes; possédés d'une incurable paresse; engourdis dans une indolence dont rien ne peut les arracher »<note n="1" place="bottom"><bibl source="#jrn_niger"><hi rend="italic">Journal d'une expédition au Niger</hi>, traduct. franç., t. I, p. 246. Paris, 1832.</bibl></note>. Et un peu plus loin :</p>
+               <p n="3"><quote n="3">« Étrangers à toute affection sociale, ils n'ont point les douces vertus de la vie privée, ni les qualités brillantes qui commandent le respect et l'admiration. L'amour du sol n'est pas chez eux assez fort pour leur faire repousser l'invasion d'un ennemi méprisable. Insouciants du passé, sans prévoyance pour l'avenir, le présent seul influe sur leurs actions. »</quote> D'après le <bibl type="article" subtype="magazine_article"><title><hi rend="italic">Journal des missions évangéliques</hi></title> (1878, p. 67)</bibl>, <quote n="4">« la guerre est la principale occupation des habitants; tout autre emploi est dédaigné et abandonné aux femmes. Les titres guerriers sont les seuls enviés; les combats, les champs de bataille, les exploits qu'on accomplit, les ennemis que l'on capture, tels sont les uniques sujets d'entretien. Les occasions de guerre sont recherchées avec soin, et il se fait annuelle-ment des expéditions dans le but d'augmenter le nombre des esclaves</quote> ».</p>
+               <p n="4">Les cases du <placeName ref="#yoruba">Yoruba</placeName>, très chaudes, mal aérées, ont une seule ouverture d'environ un mètre carré, c'est-à-dire fort étroite et à travers laquelle on ne peut pénétrer qu'en rampant. Ce sont de petites maisons écrasées et à toit de chaume<note n="3"><bibl source="#ms_tucker">Miss Tucker, <hi rend="italic">Abbeokuta</hi>, p. 35. Londres, 1858.</bibl></note>. Les <persGrp ref="#lander">frères Lander</persGrp> décrivent ce logis : <quote n="5">« Nous fûmes introduits dans une petite hutte de gazon que la fumée a revêtue du vernis noir le plus brillant. L'intérieur du toit est curieusement décoré de larges festons de toiles d'araignées et de poussière qui s'y sont accumulées depuis nombre d'années. Son fétiche est une sauterelle desséchée, conservée dans une petite calebasse; mais comme si ce charme ne suffisait pas pour la protéger contre tous les dangers auxquels sont constamment exposées les huttes de ce pays, d'autres charmes mêlés de sang et de plumes, sont fixés aux parois intérieures. »</quote> <hi rend="italic">(Op. cit.)</hi> <quote n="6">« La description d'une ville de Yarriba peut s'appliquer à toutes. Le plus ou moins de propreté, la richesse du sol, la beauté des campagnes environnantes peuvent donner de la supériorité à certaines villes; mais quant à la disposition, elle est partout à peu près la même. Des murailles en terre, irrégulières et mal construites; un mauvais toit de chaume, mal peigné; pour plancher de la boue séchée, batue et mêlée de bouse de vache... La seule différence entre la demeure du chef et celle de ses sujets, c'est que la première contient un plus grand nombre de cours et de cases, habitées pour la plupart par des femmes et des esclaves, confondus et mêlés avec les troupeaux de moutons, de chèvres, de porcs et une grande quantité de volailes (<hi rend="italic">op. cit.</hi>, t. 1, p. 222) »</quote>.</p>
+               <p n="5">Tous les villages sont entourés de murs en terre glaise hauts de cinq pieds et assez épais, défendus extérieurement par un fossé<note n="1" place="bottom"><hi rend="italic">Ibid. (loc. cit.)</hi></note>. Dans le village même, la place du marché est naturellement l'endroit le plus fréquenté et lee plus curieux à visiter.</p>
+               <p n="6">Le costume est tout à fait simple; les jeunes filles vont nues, une fleur des champs derrière les oreiles et des cordons de verroteries autour des reins.</p>
+               <p n="7">En général, la nourriture se compose d'ignames bouillies et écrasées, puis réduites en pâte avec addition d'eau. Parfois on coupe l'igname en petits morceaux qu'on laisse sécher au soleil, puis que l'on broie en y mêlant de la farine. Cete préparation peut se conserver durant six mois; au moment de la consommer on l'arrose d'eau bouillante<note n="2" place="bottom"><bibl source="#clappert">Clapperton, <hi rend="#italic">op. cit.</hi>, p. 96.</bibl></note>.</p>
+               <p n="8">Les <nationality ref="#yorubans">Yorubans</nationality> sont polygames comme tous leurs voisins; le nombre des femmes et des enfants du roi est considérable. <quote n="7">« Le roi me dit, rapporte <persName ref="#clappt">Clapperton</persName> (t. I, p. 90), qu'il ignorait le nombre de ses femmes et de ses enfants, mais qu'il était sûr que ses femmes, en se donnant la main, iraient de Katunga à Djannah. Ses filles peuvent choisir qui bon leur semble pour mari ou pour amant; mais il y a peine de mort pour quiconque touche une des femmes du roi. Le fils, à la mort de son père, prend toutes ses veuves et en a soin »</quote>.</p>
+               <p n="9">Fétichistes comme tous les autres noirs africains, les <nationality ref="#yorubans">Yorubans</nationality> font des sacrifices de chevaux, de bœufs, de moutons, que l'on mange après les avoir immolés. Ce sont les prêtres qui décident du sacrifice de tels ou tels animaux, parfois de tels individus. <quote n="8">« En temps de sécheresse on prendra un malheureux esclave, on l'ornera comme pour une fête et on el précipitera dans la fleuve»</quote><note n="3" place="bottom"><bibl source="#ms_tucker"><author>Miss Tucker</author>, <title>Abbeokuta</title>, p. 35. <pubPlace>Londres</pubPlace>, <date>1858</date>.</bibl></note>.</p>
+            </div>
+         </div>
+         <div type="part" n="2">
+            <head>LIVRE II</head>
+            <div type="chapter" n="3">
+               <head type="chap_title">L'esclavage</head>
+               <p n="1">Dans presque toute la partie de l'Afrique qui nous occupe, l'esclavage est une institution sociale, non seulement acceptée, mais encore regardée comme tout à fait naturelle et indispensable<note n="1" place="bottom"><bibl source="#aube">Aube, Entre deux campagnes, p. 43. Paris, 1881.</bibl></note>. L'<placeName ref="#adama">Adamawa</placeName> passe pour la contrée où l'esclavage est le plus développé (Barth, t. II, p. 245). Les Sérères, qui n'ont point d'esclaves, les Féloups, les Papels, forment une exception remarquables<note n="2" place="bottom">Allen a. Thomson, <hi rend="italic">Narrative of the Expedition to the River Niger in 1841</hi>. Londres, 1848. - Boilat, Esquisses sénégalaises, p. 66. Paris, 1853. — Bulletin de la Société de géographie, 1846, 1849.</note>. Partout, ou presque partout ailleurs, l'esclavage est courant, fleurit et fleurira longtemps encore. <quote n="9">« Je fis à Ruffisque, rapporte Sanderval (<hi rend="italic">op. cit.</hi>, p. 7), la connaissance du vieux roi Sangouné. Le monarque déchu était, quand je le vis, suivi de trois seigneurs de son ex-cour. Sangouné n'a plus d'illusions; il est convaincu, et le dit volontiers, que la suppression de l'esclavage a ruiné pour jamais l'ordre social. »</quote> Et, remarquons-le, l'opinion du vieux roi n'est pas seulement l'avis des classes dirigeantes et des riches, c'est également celui du troupeau servile et des malheureux qui sont victimes de la civilisation de leur pays. C'est ainsi, nous l'avons vu plus haut, que les femmes, sorte de demi-esclaves, trouvent, elles aussi, leur sort légitime et équitable. L'esclave qui devient libre a pour premier souci, s'il posède quelque pécule, d'acheter à son tour des esclaves. Le Maire (<hi rend="italic">Voy. aux Canaries, au Cap-Vert, etc.</hi>, Paris, 1695) rapporte qu'un vieux nègre ayant résolu de vendre son fils et l'ayant conduit au comptoir, le jeune homme tira un facteur à l'écart et se mit en devoir de vendre son père. Le cas est peut-être rare, mais il n'a rien d'extraordinaire.</p>
+               <p n="2">Les sources de l'esclavage, chez les noirs africains, sont multiples. En premier lieu il faut noter l'esclavage héréditaire. L'enfant d'un esclave, d'une esclave, naît esclave. Souvent les serfs sont recrutés au moyen de razzias organisées ; c'est le cas un peu partout, mais particulièrement dans la région du haut Nil<note n="1" place="bottom">Schweinfurth, <hi rend="italic">op. cit.</hi>, t. II, chap. XXIII. — Cf. Baker, <hi rend="italic">op. cit.</hi>, .p 13.</note>. Le despote du <placeName ref="#daho">Dahomey</placeName> organise des incursions chez ses voisins pour ramener des captifs et les distribuer à ses guerriers. Souvent l'esclavage est la suite de l'insolvabilité <note n="2" place="bottom"> Mungo Park, <hi rend="italic">op. cit.</hi>, t. II, p. 57.</note>, d'une condamnation, et la peine de quelque grave méfait. Depuis que le commerce des esclaves s'est étendu, écrivait Moore en 1730, <quote n="10">« tous les châtiments ont été convertis en esclavage. On trouve un avantage à ces condamnations, en ce que l'on poursuit vivement le crime pour avoir le profit de la vente du condamné. Non seulement les criminels sont réduits à l'esclavage pour le meurtre, le vol et l'adultère, mais encore pour des crimes moindres. On m'amena un jour un homme à acheter, qui avait volé une pipe à fumer. Un autre noir, voyant un tigre occupé à manger un daim qu'il avait tué et suspendu près de sa maison, tira un coup de fusil sur cet animal, et la bale alla tuer un homme. Le roi condamna non seulement ce noir, mais encore sa mère, trois frères et trois sours à être vendus pour esclaves</quote> <note n="1" place="bottom">Fr. Moore, Voyages dans les parties intérieures de l'Afrique, trad. de l'anglais.</note> ». C'est la mise en pratique du châtiment profitable, mais celui qui en tire profit n'est précisément pas celui que la chose intéresse le plus directement. Si le maître ne bénéficie point de ses esclaves en les vendant, il les utilise au moins, comme il fait de ses femmes, pour le travail de ses champs, et se crée ainsi plus de repos et d'oisiveté, ce qui est pour lui le plus précieux des biens. Corre rapporte que les Landoumas et les Nalous n'ont pas chez eux d'esclaves de leurs races, mais ils vendent comme esclaves, hors de leur territoire, ceux d'entre eux qui se sont rendus coupables de certains délits ou crimes<note n="2" place="bottom">Mémoires de la Société d'Anthropologie, 1883, p. 47.</note>.</p>
+               <p n="3">A <placeName ref="#akra">Akra</placeName> tous les esclaves sont des étrangers; les naturels du pays ne peuvent être vendus : ils sont tous libres et sont seulement réputés serfs du roi (Bosman, t. II, p. 490).</p>
+               <p n="4">Ajoutons que l'esclavage est parfois volontaire. A la perte de la vie un nègre préfère généralement la servitude, quele qu'ele soit. En temps de famine, ce qui n'est point rare, on voit des nègres aliéner à jamais leur liberté, afin d'être au moins nourris. Bien entendu, c'est après avoir vendu au préalable leurs femmes et leurs enfants. <quote n="11">« Il y a, dit Mungo Park (t. II, p. 57), plusieurs exemples d'hommes libres qui ont renoncé volontairement à leur liberté pour sauver leur vie. Pendant une grande disette qui dura près de trois ans dans les pays voisins de la Gambie, beaucoup de gens devinrent esclaves de cete manière. Le docteur Laidley m'a assuré qu'à cette époque nombre d'hommes libres étaient venus le trouver, le suppliant de les mettre à la chaîne de ses esclaves pour les empêcher de mourir de faim. De grandes familles sont souvent exposées au besoin le plus absolu, et comme les parents ont sur leurs enfants une autorité presque illimitée, il arrive souvent dans toutes les parties de l'Afrique que l'on vende quelques-uns de ceux-ci afin d'acheter des vivres pour le reste de la famille</quote> <note n="1" place="bottom"><hi rend="italic">Op. cit.</hi>, t. II, p. 214.</note> ».</p>
+               <p n="5">Une fois entre les mains de son maître, l'esclave devient une unité monétaire, que celui-ci lance, quand il le veut, dans la circulation. Chaque pièce, dit Corre, vaut dans la région du Roi Nuñez deux cents francs en moyenne, ou un collier d'ambre de vingt-cinq à trente boules.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
